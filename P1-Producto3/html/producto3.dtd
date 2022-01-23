@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT contenido (tema*)>
+<!ELEMENT tema (intro1?,subtema+)>
+
+<!ELEMENT intro1 (#PCDATA)>
+
+<!ELEMENT subtema (intro2?,parrafo+)>
+<!ELEMENT intro2 (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
+
+<!ATTLIST contenido titulo CDATA  #REQUIRED>
+<!ATTLIST tema titulo CDATA  #REQUIRED>
+<!ATTLIST subtema titulo CDATA #REQUIRED>

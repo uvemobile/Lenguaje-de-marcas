@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl.html"?>
+<producto3>
+   <titulo1>Lenguajes de marcas</titulo1>
+   <titulo2>
+      <negrita>¿Qué son los lenguajes de marcas?</negrita>
+   </titulo2>
+   <texto>Podemos definir el lenguaje de marcado o lenguaje de marcas como una forma de codificar un documento que, junto con el texto, incorpora etiquetas (o marcas) que contienen información adicional acerca de la estructura del texto o su presentación, definiendo el contenido por medio de la marca. Se suele diferenciar entre tres clases de lenguajes de marcado, aunque en la práctica se pueden combinar varias en un mismo documento. La información de los lenguajes de marcas no se muestra en el documento final, lo que significa que los usuarios finales nunca ven las marcas, solo ven el documento estructurado y su contenido. Las marcas se utilizan solamente para organizar y trabajar con la información de manera más óptima. Como podemos ver, las marcas son específicas, y ayudan a los procesadores a entender mejor qué es lo que contienen. El lenguaje de marcas, ofrecen las siguientes ventajas: Independencia del dispositivo, flexibilidad de combinarse con otros lenguajes, facilidad de procesamiento, permite ser validado, es auto-descriptivo. 
+      <negrita>Desventajas:</negrita>
+      Las marcas son redundantes, y ocupan espacio extra Puede generar ambigüedades Las transformaciones pueden generar cambios en la estructura Sus orígenes se encuentran en el Generalized Markup Language (GML), desarrollado por IBM entre 1969 y 1970 por Charles Goldfarb, Edwar Mosher y Raymond Lorie. Goldfarb tuvo la idea de que sería muy útil poder añadir marcas en los documentos para describir cuáles eran los componentes del documento. Como curiosidad, utilizaron la primera letra de sus apellidos con ingenio para dar un nombre a este nuevo lenguaje, GML se utilizó por Goldfab, Mosher y Lorie, y buscaron darle un significado a esas siglas, lo que hoy conocemos como Generalized Markup Language. Algunos de los usos iniciales fueron en el departamento de defensa de los Estados Unidos y Text Encoding Initiative, aunque poco a poco, más usuarios fueron adaptando y se convirtió en un estándar para tratar con información. Al organizar la información de esta manera, eran capaces de conseguir la información de varios documentos de una manera más efectiva, por ejemplo podría seleccionar todos los títulos de unos memorándum, o todos los parágrafos. De esta manera se mejoraba la eficiencia de trabajar con la información.
+   </texto>
+   <titulo2>
+      <negrita>Los 3 tipos de lenguaje de marcas son los siguientes:</negrita>
+   </titulo2>
+   <texto>
+      <negrita>El marcado de presentación</negrita>
+      es aquel que indica el formato del texto. Este tipo de marcado es útil para maquetar la presentación de un documento para su lectura, pero resulta insuficiente para el procesamiento automático de la información. El marcado de presentación resulta más fácil de elaborar, sobre todo para cantidades pequeñas de información. Sin embargo resulta complicado de mantener o modificar, por lo que su uso se ha ido reduciendo en proyectos grandes en favor de otros tipos de marcado más estructurados.
+   </texto>
+   <texto>
+      <negrita>El marcado de procedimientos</negrita>
+      está enfocado hacia la presentación del texto, sin embargo, también es visible para el usuario que edita el texto. El programa que representa el documento debe interpretar el código en el mismo orden en que aparece. Por ejemplo, para formatear un título, debe haber una serie de directivas inmediatamente antes del texto en cuestión, indicando al software instrucciones tales como centrar, aumentar el tamaño de la fuente, o cambiar a negrita. Inmediatamente después del título deberá haber etiquetas inversas que reviertan estos efectos. En sistemas más avanzados se utilizan macros o pilas que facilitan el trabajo.
+   </texto>
+   <texto>
+      <negrita>El marcado descriptivo o semántico</negrita>
+      utiliza etiquetas para describir los fragmentos de texto, pero sin especificar cómo deben ser representados, o en qué orden. Los lenguajes expresamente diseñados para generar marcado descriptivo son el SGML y el XML. El marcado descriptivo también simplifica la tarea de formatear un texto, debido a que la información del formato está separada del propio contenido como pueda ser *Titulo&gt;Lenguajes de marcas */Titulo&gt;.
+   </texto>
+</producto3>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<speak version="1.0" xml:lang="es-ES" xmlns="http://www.w3.org/2001/10/synthesis">
+   <voice name="es-ES-Laura-Apollo">
+      <p><prosody rate="slow">Lenguajes de marcas</prosody></p>
+   </voice><voice name="es-ES-Pablo-Apollo">
+      <p> ¿Qué son los lenguajes de marcas? <break strengh="x-strong" /></p>
+   </voice>
+   <voice name="es-ES-Pablo-Apollo">
+      <p>Podemos definir el lenguaje de marcado o lenguaje de marcas como una forma de codificar un documento que, junto con el texto, incorpora etiquetas (o marcas) que contienen información adicional acerca de la estructura del texto o su presentación, definiendo el contenido por medio de la marca. Se suele diferenciar entre tres clases de lenguajes de marcado, aunque en la práctica se pueden combinar varias en un mismo documento. La información de los lenguajes de marcas no se muestra en el documento final, lo que significa que los usuarios finales nunca ven las marcas, solo ven el documento estructurado y su contenido. Las marcas se utilizan solamente para organizar y trabajar con la información de manera más óptima. Como podemos ver, las marcas son específicas, y ayudan a los procesadores a entender mejor qué es lo que contienen. El lenguaje de marcas, ofrecen las siguientes ventajas: Independencia del dispositivo, flexibilidad de combinarse con otros lenguajes, facilidad de procesamiento, permite ser validado, es auto-descriptivo. 
+         Desventajas:
+         Las marcas son redundantes, y ocupan espacio extra Puede generar ambigüedades Las transformaciones pueden generar cambios en la estructura Sus orígenes se encuentran en el Generalized Markup Language (GML), desarrollado por IBM entre 1969 y 1970 por Charles Goldfarb, Edwar Mosher y Raymond Lorie. Goldfarb tuvo la idea de que sería muy útil poder añadir marcas en los documentos para describir cuáles eran los componentes del documento. Como curiosidad, utilizaron la primera letra de sus apellidos con ingenio para dar un nombre a este nuevo lenguaje, GML se utilizó por Goldfab, Mosher y Lorie, y buscaron darle un significado a esas siglas, lo que hoy conocemos como Generalized Markup Language. Algunos de los usos iniciales fueron en el departamento de defensa de los Estados Unidos y Text Encoding Initiative, aunque poco a poco, más usuarios fueron adaptando y se convirtió en un estándar para tratar con información. Al organizar la información de esta manera, eran capaces de conseguir la información de varios documentos de una manera más efectiva, por ejemplo podría seleccionar todos los títulos de unos memorándum, o todos los parágrafos. De esta manera se mejoraba la eficiencia de trabajar con la información.<break strengh="x-strong" />
+      </p>
+   </voice>
+</speak>

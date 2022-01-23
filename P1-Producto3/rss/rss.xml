@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+
+<channel>
+  <title>Titulo 1</title>
+  <link>http://52.166.141.5/index.html</link>
+  <description>Enlace RSS a documento del producto 3</description>
+  <item>
+    <title>Documento del producto 3</title>
+    <link>http://52.166.141.5/html/producto3.xml</link>
+    <description>Enlace RSS a documento del producto 3</description>
+  </item>
+</channel>
+</rss>

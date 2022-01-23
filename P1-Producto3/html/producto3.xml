@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="./html.xsl"?>
+<!DOCTYPE contenido SYSTEM "producto3.dtd">
+<contenido titulo="Learning XML. Un portal web para aprender XML en múltiples formatos">
+<tema titulo="1. Lenguajes de marcas">
+	<intro1>En este apartado se muestran que son los lenguajes de marcas y algunos ejemplos</intro1>
+	<subtema titulo="a. ¿Qué son los lenguajes de marcas?">
+		<parrafo>Podemos definir el lenguaje de marcado o lenguaje de marcas como una forma de codificar un documento que, junto con el texto, incorpora etiquetas (o marcas) que contienen información adicional acerca de la estructura del texto o su presentación, definiendo el contenido por medio de la marca. Se suele diferenciar entre tres clases de lenguajes de marcado, aunque en la práctica se pueden combinar varias en un mismo documento. La información de los lenguajes de marcas no se muestra en el documento final, lo que significa que los usuarios finales nunca ven las marcas, solo ven el documento estructurado y su contenido. Las marcas se utilizan solamente para organizar y trabajar con la información de manera más óptima.</parrafo>
+		<parrafo>Como podemos ver, las marcas son específicas, y ayudan a los procesadores a entender mejor qué es lo que contienen. El lenguaje de marcas, ofrecen las siguientes ventajas:</parrafo>
+		<parrafo>Independencia del dispositivo</parrafo>
+		<parrafo>Flexibilidad de combinarse con otros lenguajes</parrafo>
+		<parrafo>Facilidad de procesamiento</parrafo>
+		<parrafo>Permite ser validado</parrafo>
+		<parrafo>Es auto-descriptivo</parrafo>
+		<parrafo>Desventajas:</parrafo>
+		<parrafo>Las marcas son redundantes, y ocupan espacio extra</parrafo>
+		<parrafo>Puede generar ambigüedades</parrafo>
+		<parrafo>Las transformaciones pueden generar cambios en la estructura</parrafo>
+		<parrafo>Sus orígenes se encuentran en el Generalized Markup Language (GML), desarrollado por IBM entre 1969 y 1970 por Charles Goldfarb, Edwar Mosher y Raymond Lorie. Goldfarb tuvo la idea de que sería muy útil poder añadir marcas en los documentos para  describir cuáles eran los componentes del documento. Como curiosidad, utilizaron la primera letra de sus apellidos con ingenio para dar un nombre a este nuevo lenguaje, GML se utilizó por Goldfab, Mosher y Lorie, y buscaron darle un significado a esas siglas, lo que hoy conocemos como Generalized Markup Language.
+		Algunos de los usos iniciales fueron en el departamento de defensa de los Estados Unidos y Text Encoding Initiative, aunque poco a poco, más usuarios fueron adaptando y se convirtió en un estándar para tratar con información.</parrafo>
+		<parrafo>Al organizar la información de esta manera, eran capaces de conseguir la información de varios documentos de una manera más efectiva, por ejemplo podría seleccionar todos los títulos de unos memorándum, o todos los parágrafos. De esta manera se mejoraba la eficiencia de trabajar con la información.</parrafo>		
+	</subtema>
+	<subtema titulo="b. Ejemplos de lenguajes de marcas">
+		<parrafo>HTML</parrafo>
+		<parrafo>Desarrollado en 1990 por Tim Berners-Lee.
+		Hyper Text Markup Language es el lenguaje de marcado de hipertexto. Se utiliza en las páginas y sitios web y fue creado por el padre de la web, Tim Berners Lee en 1989.			
+		El lenguaje HTML es el encargado de definir los contenidos de un sitio web de forma textual y estructurada. Dicho de otra forma, es el encargado de decirle al navegador web cómo debe visualizarse el sitio web. Si el título está centrado, en negrita o si tiene un enlaces, por ejemplo, son elementos del marcado en HTML.
+		</parrafo>
+		<parrafo>XML</parrafo>
+		<parrafo>Desarrollado en 1998 por W3C.
+		A diferencia del HTML, el lenguaje XML o Extensible Markup Language, etiqueta toda información, entre dos marcas, pero está separado el contenido de la presentación.
+		El XML es un lenguaje estándar, independiente, no forma parte de ninguna empresa. Es la forma segura y fiable de intercambiar información entre diferentes programas.
+		</parrafo>
+		<parrafo>BBC</parrafo>
+		<parrafo>Desarrollado en 1998 por W3C.
+		También conocido como BBCode, se utiliza en los foros para formatear el texto introducido en los posts dentro de los hilos de un foro. 
+		</parrafo>
+	</subtema>
+</tema>
+<tema titulo="2. eXtensible Markup language (XML)">
+	<subtema titulo="a. Definición de XML">
+		<parrafo>De las siglas en inglés eXtensible Markup Language, es un metalenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible.</parrafo>
+		<parrafo>Se concibió para que cumpliera varios objetivos:</parrafo>
+		<parrafo>Que fuera idéntico a la hora de servir, recibir y procesar la información que el lenguaje HTML y aprovechar toda la tecnología ya implantada.</parrafo>
+		<parrafo>Que fuera formal y conciso desde el punto de vista de los datos y la forma de almacenarlos.</parrafo>
+		<parrafo>Que fuera extensible, para que se pueda utilizar en todos los campos del conocimiento.</parrafo>
+		<parrafo>Que fuese fácil de leer y editar.</parrafo>
+		<parrafo>Que fuese fácil de implantar, programar y aplicar a los distintos sistemas.</parrafo>
+	</subtema>
+	<subtema titulo="b. Utilidades de XML">
+		<parrafo>Su mayor utilidad es como medio contenedor de información, separando y organizando, los datos en forma legible que se pueden consumir mediante APIs específicas, manteniendo los datos en memoria o en persistencia (como ficheros o registros de bases de datos).</parrafo>
+		<parrafo>Es especialmente útil cuando varias aplicaciones o sistemas, deben compartir información comunicándose entre sí, al poderse serializar y explotar mediante servicios Pub/Sub.</parrafo>
+		<parrafo>Algunos ejemplos, podrían ser:</parrafo>
+		<parrafo>Páginas web: Se puede codificar una página total o parcialmente utilizando XML, aunque para ello se requiere transformar el archivo XML a HTML.</parrafo>
+		<parrafo>Estructurar información para la web: Se puede utilizar XML para estructurar y mostrar información, como por ejemplo la información de una biblioteca, con los nombres de los autores, los IBAN del libro y su sinapsis, etc. para poder visualizarla en la capa de presentación de un navegador.</parrafo>
+		<parrafo>Intercambio de información: El modelo electrónico de intercambio de datos (EDI) se ve beneficiado por el uso de XML para transacciones de intercambio de información entre compañía-compañía y compañía-cliente.</parrafo>
+		<parrafo>Conversor: Actualmente son muchos los productos que ofrecen servicios de conversión a XML, como PDF, HTML, .text, .docx o XHTML</parrafo>
+	</subtema>
+	<subtema titulo="c. Estructura de documentos XML">
+		<parrafo>¿Que es DTD?</parrafo>
+		<parrafo>Es una descripción de estructura y sintaxis de un documento XML, describe la estructura de los datos que contiene, se especifica así las restricciones en su estructura y sintaxis del mismo.
+		Un elemento DTD se declara con una declaración de ELEMENT. Cuando un archivo XML es valorado por una DTD, el analizador inicialmente examina el elemento raíz y luego los elementos secundarios.
+		Los elementos pueden actuar como contenedores de texto, elementos, atributos, objetos de comunicación, o una mezcla de todos.
+		</parrafo>
+		<parrafo>Principales elementos de una gramática DTD</parrafo>
+		<parrafo>ELEMENT, se usa una declaración como indicación para el analizador que va a definir un elemento.</parrafo>
+		<parrafo>elementname, es el nombre del elemento (también llamado identificador genérico) que se está definiendo.</parrafo>
+		<parrafo>content, define qué contenido, si hubiera alguno, puede ir en el elemento.</parrafo>
+	</subtema>
+</tema>
+</contenido>
